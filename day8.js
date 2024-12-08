@@ -78,7 +78,7 @@ var antennaType;
 for (var row = 0; row < maxRow; row++) {
     for (var col = 0; col < maxCol; col++) {
         if (map[row][col] != ".") {
-            antennaType =  map[row][col];
+            antennaType = map[row][col];
             if (antennaTypes.indexOf(antennaType) < 0) {
                 antennaTypes.push(antennaType);
                 antennas[antennaType] = [];
