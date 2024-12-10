@@ -1,4 +1,4 @@
-console.time("Day 8");
+console.time("Day 9");
 
 // var diskMap = "2333133121414131402";
 // var diskMap2 = "12345";
@@ -82,4 +82,4 @@ for (var i = 0; i < fileBlocks.length; i++) {
 //6607511583593
 // console.log(`Part 1: ${ checkSum }`);
 console.log(`Part 2: ${ checkSum }`);
-console.timeEnd("Day 8")
+console.timeEnd("Day 9")
