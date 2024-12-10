@@ -1,3 +1,5 @@
+console.time("Day 10");
+
 var test = `
 89010123
 78121874
@@ -126,8 +128,6 @@ function walk(headIndex, pos) {
         walk(headIndex, paths[i]);
     }
 }
-
-console.time("Day 10");
 
 var peaks = {};
 for (var i = 0; i < heads.length; i++) {
