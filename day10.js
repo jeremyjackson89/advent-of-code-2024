@@ -99,10 +99,6 @@ function canGoTo(pt, cur) {
     return map[pt[0]][pt[1]] != null && map[pt[0]][pt[1]] == (map[cur[0]][cur[1]] + 1);
 }
 
-function isUniqueEndForHead(headIndex, endPoint) {
-    return trails[headIndex].indexOf(endPoint) < 0;
-}
-
 function walk(headIndex, pos) {
     var next;
     var paths = [];
