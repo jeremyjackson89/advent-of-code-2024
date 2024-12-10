@@ -122,11 +122,8 @@ function walk(headIndex, pos) {
         }
     }
 
-    if (paths.length > 0) {
-        for (var i = 0; i < paths.length; i++) {
-            walk(headIndex, paths[i]);
-        }
-    } else {
+    for (var i = 0; i < paths.length; i++) {
+        walk(headIndex, paths[i]);
     }
 }
 
